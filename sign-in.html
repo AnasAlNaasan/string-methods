@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row face d-flex justify-content-center align-items-center">
+            <div class="col-md-6">
+                <img src="img/Facebook-Logo-PNG5.png" class="w-75" alt="">
+            </div>
+            <div class="col-md-6">
+                <h1>Sign In <br> At Facebook</h1>
+                <p class="text-muted my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, vel.</p>
+                <h4 id="result"></h4>
+                <form action="https://www.facebook.com/" onsubmit="return caces()">
+                    <input type="text" name="name" id="name" placeholder="Name" class="form-control my-3 py-4">
+                    <input type="text" name="email" id="email" placeholder="Email" class="form-control my-3 py-4">
+                    <input type="password" name="pass" id="pass" placeholder="Password" class="form-control my-3 py-4">
+                    <input type="password" name="convert" id="convirt" placeholder="Convirt Password" class="form-control my-3 py-4">
+                    <input type="submit" value="Change" class="btn btn-success btn-block">
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- jquery js -->
+    <script src="js/jquery.slim.min.js"></script>
+    <!-- popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- main js -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
